@@ -19,7 +19,11 @@ body{
     margin: 0 auto;
     display: inline-block;
     background: url("/background1.jpg") no-repeat top center fixed;
-    background-size: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
     height: auto;
     width: 50%;
     margin: 0;
