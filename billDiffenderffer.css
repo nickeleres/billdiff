@@ -1,7 +1,4 @@
-h1{
-  text-align: center;
-}
-
+/*start parrallax styles*/
 html{
     height: 100%;
     width: 100%;
@@ -39,4 +36,10 @@ body{
     margin: 0;
     padding: 0;
     /*content: url('/spirit.jpg');*/
+}
+
+/*end parrallax styles*/
+
+h1{
+  text-align: center;
 }
