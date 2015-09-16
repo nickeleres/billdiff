@@ -1,10 +1,10 @@
 //client/home.js
 
-Router.route('homeTemplate', {
+Router.route('home', {
   path: '/'
 })
 
-Template.homeTemplate.onCreated(function(){
+Template.home.onCreated(function(){
 
   $(window).on('scroll', function(event){
 
