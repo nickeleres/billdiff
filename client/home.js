@@ -15,17 +15,55 @@ Template.homeTemplate.events({
   }
 })
 
+Template.homeTemplate.helpers({
+  opacity: function(){
+    console.log('template helper opacity', Session.get('zoomOpacity'))
+    return Session.get('zoomOpacity')
+  }
+})
+
+Tracker.autorun(function(){
+  const opacity = Session.get('zoomOpacity')
+
+  console.log('opacity', opacity)
+
+  $('#header').css('opacity', opacity)
+
+})
+
 Template.homeTemplate.onCreated(function(){
-  console.log('on created')
 
   $(document).on('scroll', function(event){
 
+    // dynamic fading
+    var self = this;
+    self.zoom = new ReactiveVar(0);
     const scrollTop = $('body').scrollTop()
+    const windowHeight = $(window).height()
 
-    console.log('on scroll', scrollTop)
+    const zoomAmount = (windowHeight/(scrollTop * 10))
 
-    if(scrollTop > 300){
-      $('#header').fadeOut()
+    self.zoom.set(zoomAmount)
+
+    Session.set('zoomOpacity', self.zoom)
+
+    console.log(self.zoom)
+    console.log('scrollTop', scrollTop)
+
+    // $('#header').css('opacity', self.zoom)
+
+    $('#header').animate({
+      'opacity' : 0.25
+    }, 1000)
+
+
+    // zoom fade
+    // const scrollTop = $('body').scrollTop()
+
+    // console.log('on scroll', scrollTop)
+
+    if(scrollTop > 200){
+      $('#header').animate({opacity:0}, 1000)
     } else if(scrollTop < 300) {
       // $('#header').fadeIn()
     }

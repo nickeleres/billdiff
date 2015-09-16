@@ -18,7 +18,7 @@ body{
 #header{
     margin: 0 auto;
     display: inline-block;
-    background: url("/background1.jpg") no-repeat top center fixed;
+    background: url("/atom.png") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -28,7 +28,7 @@ body{
     width: 50%;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 50px;
 }
@@ -38,4 +38,5 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    content: url('/spirit.jpg');
 }
