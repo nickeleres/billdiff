@@ -12,6 +12,7 @@ body{
     width: 100%;
     text-align: center;
     background-color: #08D0A9;
+    font-family: Droid Sans;
 }
 
 #header{
@@ -37,7 +38,6 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    /*content: url('/spirit.jpg');*/
 }
 
 /*end parrallax styles*/
