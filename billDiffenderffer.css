@@ -45,3 +45,30 @@ body{
 h1{
   text-align: center;
 }
+
+/*bio page*/
+
+#bill_photo{
+    border-radius: 5%;
+    position:relative;
+    -webkit-box-shadow:3px 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:3px 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:3px 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#bio_content{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%
+}
+
+.bio_text{
+    text-align: left;
+    margin-top: 5%;
+
+}
+
+
+
+
