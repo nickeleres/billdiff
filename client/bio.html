@@ -1,6 +1,8 @@
 <template name='bioTemplate'>
   <a class="waves-effect waves-light btn" href="{{pathFor 'home'}}">HOME</a>
   <a class="waves-effect waves-light btn" href="{{pathFor 'books'}}">BOOKS</a>
-  <a class="waves-effect waves-light btn" href="{{pathFor 'bio'}}">BIO</a>
+  {{#unless showBioButton}}
+    <a class="waves-effect waves-light btn" href="{{pathFor 'bio'}}">BIO</a>
+  {{/unless}}
   <h1>this is the <b>bio</b> template</h1>
 </template>
