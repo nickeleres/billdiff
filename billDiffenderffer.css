@@ -11,7 +11,8 @@ body{
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: #08D0A9;
+    /*background-color: #08D0A9;*/
+    background-image: url('/background.png');
     font-family: Droid Sans;
 }
 
