@@ -12,9 +12,9 @@ Template.home.onCreated(function(){
     const scrollTop = $(this).scrollTop()
     const windowHeight = $(window).height()
 
-    const zoomAmountTop = (1-(scrollTop/windowHeight))
+    const zoomAmountTop = (1-((scrollTop*1.2)/windowHeight))
 
-    const zoomAmountBottom = (scrollTop/windowHeight)
+    const zoomAmountBottom = (scrollTop/(windowHeight*1.1))
 
     console.log('zoomAmountTop', zoomAmountTop)
     console.log('zoomAmountBottom', zoomAmountBottom)
