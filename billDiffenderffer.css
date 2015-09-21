@@ -48,6 +48,10 @@ h1{
   color: white;
 }
 
+#bill_diff_title{
+    padding-top: 3%;
+}
+
 /*bio page*/
 
 #bio_content{
