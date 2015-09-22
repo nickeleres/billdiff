@@ -9,3 +9,4 @@ iron:router
 jquery
 reactive-var
 grigio:babel
+twbs:bootstrap
