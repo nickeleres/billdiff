@@ -18,7 +18,7 @@ Template.home.onCreated(function(){
 
     const x_coeff = (zoomAmountMiddle -1)
 
-    const zoomMiddle = (-(x_coeff * x_coeff)) + 1
+    const zoomMiddle = ((-(x_coeff * x_coeff)) + 1)-0.25
 
     console.log('zoomMiddle', zoomMiddle)
     console.log('zoomMiddle MINUS 1', (zoomAmountMiddle-1))
