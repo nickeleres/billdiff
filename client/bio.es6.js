@@ -36,25 +36,25 @@ Template.bioTemplate.helpers({
 //     }
 // );
 
-SeoCollection.update(
-    {
-        route_name: 'aboutMe'
-    },
-    {
-        $set: {
-            route_name: 'aboutMe',
-            title: 'About - Manuel Schoebel',
-            meta: {
-                'description': 'Manuel Schoebel is an experienced web developer and startup founder. He develops but also consults startups about internet topics.'
-            },
-            og: {
-                'title': 'About - Manuel Schoebel',
-                'image': 'http://manuel-schoebel.com/images/authors/manuel-schoebel.jpg'
-            }
-        }
-    },
-    {
-        upsert: true
-    }
-);
+// SeoCollection.update(
+//     {
+//         route_name: 'aboutMe'
+//     },
+//     {
+//         $set: {
+//             route_name: 'aboutMe',
+//             title: 'About - Manuel Schoebel',
+//             meta: {
+//                 'description': 'Manuel Schoebel is an experienced web developer and startup founder. He develops but also consults startups about internet topics.'
+//             },
+//             og: {
+//                 'title': 'About - Manuel Schoebel',
+//                 'image': 'http://manuel-schoebel.com/images/authors/manuel-schoebel.jpg'
+//             }
+//         }
+//     },
+//     {
+//         upsert: true
+//     }
+// );
 

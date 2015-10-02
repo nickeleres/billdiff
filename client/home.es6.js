@@ -28,7 +28,7 @@ Template.home.onCreated(function(){
     console.log('zoomAmountBottom', zoomAmountBottom)
 
     $('#header').css('opacity', zoomAmountTop)
-    $('#sun').css('opacity', zoomMiddle)
+    $('#earth').css('opacity', zoomMiddle)
     $('#photoBottom').css('opacity', zoomAmountBottom)
 
   })
