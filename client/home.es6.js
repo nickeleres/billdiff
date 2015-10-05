@@ -29,7 +29,7 @@ Template.home.onCreated(function(){
 
     $('#header').css('opacity', zoomAmountTop)
     $('#earth').css('opacity', zoomMiddle)
-    $('#photoBottom').css('opacity', zoomAmountBottom)
+    $('#content').css('opacity', zoomAmountBottom)
 
   })
 
