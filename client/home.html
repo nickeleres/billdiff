@@ -1,12 +1,15 @@
 <template name="home">
-  <h1 id='bill_diff_title'>Bill Diffenderffer</h1>
+  <a href="{{pathFor 'books'}}">
+    <h1 id='bill_diff_title'>Bill<br> Diffenderffer</h1>
+  </a>  
   <div class='col-sm-6' id='header'>
-    <!-- <h1 id='bill_diff_title'>Bill Diffenderffer</h1> -->
   </div>
   <div class="col-sm-6" id='earth'>
     <img id='earth' src="/earth_black.png">
   </div>
   <div class='col-sm-6' id='content'>
-    <a href="{{pathFor 'books'}}"><img id='content' src="/meditation.png"></a>
+    <a href="{{pathFor 'books'}}">
+      <img id='content' src="/meditation.png">
+    </a>
   </div>
 </template>
