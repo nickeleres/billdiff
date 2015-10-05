@@ -54,11 +54,37 @@ body{
     margin-bottom: 3%;
 }
 
+#mobile_content{
+    display: none;
+}
+
 @media screen and (max-width: 400px){
     h1{
         font-size: 40px;
     }
+
+    #earth, #header, #content{
+        display: none;
+    }
+
+    #mobile_content{
+        margin: 0 auto;
+        display: inline-block;
+        background: url("/atom_black_blur.png") no-repeat 50% center fixed;
+        background-size: 85% auto;
+        -webkit-background-size: 85% auto;
+        -moz-background-size: 85% auto;
+        -o-background-size: 85% auto;
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+    }
 }
+
 
 /*end parrallax styles*/
 
