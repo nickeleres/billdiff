@@ -1,10 +1,9 @@
 <template name='booksTemplate'>
   <div class="nav_buttons">
-    <a class="waves-effect waves-red btn" href="{{pathFor 'home'}}">HOME</a>
-    <a class="waves-effect waves-red btn" href="{{pathFor 'bio'}}">BIO</a>
-    {{#unless showBooksButton}}
-      <a class="waves-effect waves-light btn" href="{{pathFor 'books'}}">BOOKS</a>
-    {{/unless}}
+    <a class="btn" href="{{pathFor 'home'}}"><button type="button" class="btn btn-primary btn-lg sharp">HOME</button></a>
+    {{#if showBooksButton}}
+      <a class="btn" href="{{pathFor 'bio'}}"><button type="button" class="btn btn-primary btn-lg sharp">BIO</button></a>
+    {{/if}}
   </div>
   <h1 class='title'>books</h1>
   <div class="container">
