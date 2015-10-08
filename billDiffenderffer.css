@@ -25,20 +25,21 @@ body{
 }
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
+    color: white;
+    background-color: grey;
 }
 
 .btn-primary {
-    background: #0099cc;
-    color: #ffffff;
+    background: white;
+    color: black;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
+    background: grey;
 }
 .btn-primary:active, .btn-primary.active {
-    background: #007299;
+    background: black;
     box-shadow: none;
 }
-
 
 .sharp {
   border-radius:0;
@@ -106,6 +107,10 @@ body{
         padding: 0;
         text-align: center;
         overflow: hidden;
+    }
+
+    .btn{
+        padding: 7px 12px;
     }
 }
 
