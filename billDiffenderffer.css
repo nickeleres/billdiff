@@ -83,37 +83,6 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 400px){
-    h1{
-        font-size: 40px;
-    }
-
-    #earth, #header, #content{
-        display: none;
-    }
-
-    #mobile_content{
-        margin: 0 auto;
-        display: inline-block;
-        background: url("/atom_black_blur.png") no-repeat 50% center fixed;
-        background-size: 85% auto;
-        -webkit-background-size: 85% auto;
-        -moz-background-size: 85% auto;
-        -o-background-size: 85% auto;
-        width: 100%;
-        min-height: 100%;
-        height: auto;
-        margin: 0 auto;
-        padding: 0;
-        text-align: center;
-        overflow: hidden;
-    }
-
-    .btn{
-        padding: 7px 12px;
-    }
-}
-
 
 /*end parrallax styles*/
 
@@ -124,13 +93,15 @@ h1, h2, h3, h4{
 
 .title{
     margin-top: 5%;
+    font-size: 64px;
 }
 
 .text{
     color: white;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 180%;
+    letter-spacing: 1px;
 }
 
 .book_header{
@@ -144,12 +115,13 @@ h1, h2, h3, h4{
     padding-left: 2%;
     position: fixed;
     z-index: 11;
+    font-size: 64px;
 }
 
 .row{
     padding-bottom: 3%;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 6%;
 }
 
 .amazon_widget{
@@ -179,8 +151,47 @@ h1, h2, h3, h4{
     text-align: left;
     margin: 0 0 5% 0;
     color: white;
-    font-size: 16px;
-
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 1px;
 }
 
 
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 40px;
+    }
+
+    #bill_diff_title{
+        font-size: 42px;
+    }
+
+    #earth, #header, #content{
+        display: none;
+    }
+
+    #mobile_content{
+        margin: 0 auto;
+        display: inline-block;
+        background: url("/atom_black_blur.png") no-repeat 50% center fixed;
+        background-size: 85% auto;
+        -webkit-background-size: 85% auto;
+        -moz-background-size: 85% auto;
+        -o-background-size: 85% auto;
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .btn{
+        padding: 7px 12px;
+    }
+
+    .title{
+        margin-top: 12%;
+    }
+}
