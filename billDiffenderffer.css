@@ -70,6 +70,10 @@ body{
     padding: 5%;
 }
 
+#content{
+
+}
+
 #earth{
     padding-top: 0;
 }
@@ -128,6 +132,11 @@ h1, h2, h3, h4{
     -webkit-box-shadow: 2px -11px 44px 2px rgba(145,140,145,0.66);
     -moz-box-shadow: 2px -11px 44px 2px rgba(145,140,145,0.66);
     box-shadow: 2px -11px 44px 2px rgba(145,140,145,0.66);
+    margin-top: 
+}
+
+.book_widget{
+    margin-top: 3%;
 }
 
 /*bio page*/
@@ -145,6 +154,7 @@ h1, h2, h3, h4{
     -webkit-box-shadow: -3px -3px 23px -2px rgba(145,140,145,0.66);
     -moz-box-shadow: -3px -3px 23px -2px rgba(145,140,145,0.66);
     box-shadow: -3px -3px 23px -2px rgba(145,140,145,0.66);
+
 }
 
 .bio_text{
