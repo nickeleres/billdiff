@@ -8,7 +8,6 @@ iron:router
 jquery
 reactive-var
 grigio:babel
-manuelschoebel:ms-seo
 twbs:bootstrap
 standard-minifiers
 meteor-base
