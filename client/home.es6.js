@@ -14,7 +14,7 @@ Template.home.onCreated(function(){
 
     const zoomAmountTop = (1-((scrollTop*1.2)/windowHeight))
     const zoomAmountMiddle = (scrollTop/(windowHeight*1.1))
-    const zoomAmountBottom = ((scrollTop/(windowHeight*1.1))-1)
+    // const zoomAmountBottom = ((scrollTop/(windowHeight*1.1))-1)
 
     const x_coeff = (zoomAmountMiddle -1)
 
@@ -22,7 +22,7 @@ Template.home.onCreated(function(){
 
     $('#header').css('opacity', zoomAmountTop)
     $('#earth').css('opacity', zoomMiddle)
-    $('#content').css('opacity', zoomAmountBottom)
+    // $('#content').css('opacity', zoomAmountBottom)
 
   })
 
