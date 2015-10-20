@@ -20,13 +20,6 @@ Template.home.onCreated(function(){
 
     const zoomMiddle = ((-(x_coeff * x_coeff)) + 1)-0.25
 
-    console.log('zoomMiddle', zoomMiddle)
-    console.log('zoomMiddle MINUS 1', (zoomAmountMiddle-1))
-
-    console.log('zoomAmountTop', zoomAmountTop)
-    console.log('zoomAmountMiddle', zoomAmountMiddle)
-    console.log('zoomAmountBottom', zoomAmountBottom)
-
     $('#header').css('opacity', zoomAmountTop)
     $('#earth').css('opacity', zoomMiddle)
     $('#content').css('opacity', zoomAmountBottom)
